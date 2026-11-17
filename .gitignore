@@ -94,3 +94,6 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,microsoftoffice,macos
 /qaqc/sonde-qaqc-project_old
+
+/.quarto/
+**/*.quarto_ipynb

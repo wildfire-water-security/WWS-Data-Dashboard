@@ -1,0 +1,36 @@
+---
+title: "About the Data Dashboard"
+format: html
+---
+
+**The purpose of the data dashboard is to:**
+
+- Identify opportunities for larger-scale synthesis of WWS work across the PNW
+
+- Provide centralized documentation of data available within WWS
+
+- Share project impact and outputs
+
+- Identify overlapping research interests
+
+**The map includes:**
+
+- Bounding boxes for non-point WWS datasets.
+
+- Markers for point WWS sites.
+
+- Wildfire boundaries from 2020 to present (National Interagency Fire Center, 2026).
+
+- Drinking Water Source areas and general intake locations (Washington Department of Health, n.d., Oregon Department of Environmental Quality, n.d.).
+
+> NOTE: Intake locations were generated using the publicly available source boundaries and USGS's NHDPlusHR streamline dataset (U.S. Geological Survey, n.d.). The most downstream point at which the source area intersected the streamline was considered the "intake location", which may or may not be the "actual" intake location. These are not official intake locations.
+
+## References
+
+National Interagency Fire Center. (2026). *WFIGS Current Interagency Fire Perimeters* [Data set]. <https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0>
+
+Oregon Department of Environmental Quality. (n.d.). *Surface water Drinking Water Source Areas; Public Water Systems* [Data set]. Retrieved March 11, 2025, from <https://arcgis.deq.state.or.us/arcgis/rest/services/DEQ_Services/DrinkingWaterSourceAreas/MapServer/7>
+
+U.S. Geological Survey. (n.d.). *NHDPlus High Resolution* [Data set]. Retrieved March 11, 2025, from <https://www.usgs.gov/national-hydrography/nhdplus-high-resolution>
+
+Washington Department of Health. (n.d.). *Drinking Water Surface Water Protection Areas* [Data set]. Retrieved March 11, 2025, from <https://doh.wa.gov/data-and-statistical-reports/data-systems/geographic-information-system/downloadable-data-sets>
