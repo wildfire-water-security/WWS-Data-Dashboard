@@ -5,7 +5,7 @@ project:
     - WWS-Data-Dashboard.html
 
 website:
-  title: "Wildfire and Water Security: Data Dashboard"
+  title: "WWS: Data Dashboard"
   favicon: "images/WWS-logo.png"
   navbar:
     logo: "images/WWS-logo.png"

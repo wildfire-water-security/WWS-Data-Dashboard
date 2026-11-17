@@ -1,28 +1,31 @@
 /*-- scss:defaults --*/
 
 // Colors
-$dark-blue: #1a6f96;
-$light-blue: #67c4db;
-$white: #FDFBF7;
-$gray: #e6e6e6;
-$mid-blue: #1d7097;
+$main-blue: #69A6D8;
+$light-blue: #D7E7F5;
+$dark-blue: #295674;
+$white:#FDFBF7;
+$gray: #8A9AA7;
+$orange: #EC622F;
+$dark-orange: #822c0c;
+$light-orange: #f4a182;
 $black: #000000;
 
 // Base document colors
-$navbar-bg: $gray; // navbar
-$navbar-fg: $dark-blue; // navbar foreground elements
-$navbar-hl: $mid-blue; // highlight color when hovering over navbar links
-$body-bg: $white; // page background 
-$body-color: $black; // page text 
-$footer-bg: $gray; // footer 
-$link-color: $dark-blue; // hyperlinks 
-$footer-fg: $dark-blue;
+$navbar-bg: $light-orange; // navbar
+$navbar-fg: $dark-orange; // navbar foreground elements
+$navbar-hl: $dark-orange; // highlight color when hovering over navbar links
+$body-bg: $light-blue; // page background
+$body-color: $black; // page text
+$footer-bg: $light-orange; // footer
+$link-color: $orange; // hyperlinks
+$footer-fg: $dark-orange;
 
 // Inline code
 $code-bg: $white; // inline code background color
 $code-color: $black; // inline code text color
 
-// Remove lines on the table 
+// Remove lines on the table
 .no-row-lines table,
 .no-row-lines table thead,
 .no-row-lines table tbody,
@@ -30,14 +33,14 @@ $code-color: $black; // inline code text color
 .no-row-lines table th,
 .no-row-lines table td {
   border: none !important;
-} 
+}
 
-// Footer Text size 
+// Footer Text size
 .footer-copyright {
   font-size: 1rem;
-} 
+}
 
-// Styling personal links 
+// Styling personal links
 .profile-links {
   display: flex;
   flex-wrap: wrap;
@@ -60,7 +63,7 @@ $code-color: $black; // inline code text color
   text-decoration: none;
 }
 
-// Center photos within section 
+// Center photos within section
 .project-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
