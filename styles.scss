@@ -25,14 +25,18 @@ $footer-fg: $dark-orange;
 $code-bg: $white; // inline code background color
 $code-color: $black; // inline code text color
 
-// Remove lines on the table
-.no-row-lines table,
-.no-row-lines table thead,
-.no-row-lines table tbody,
-.no-row-lines table tr,
-.no-row-lines table th,
-.no-row-lines table td {
-  border: none !important;
+.dashboard-container iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  display: block;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .dashboard-container iframe {
+    height: 500px;
+  }
 }
 
 // Footer Text size
